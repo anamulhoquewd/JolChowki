@@ -1,0 +1,100 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 22px;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Teko', sans-serif;
+}
+
+body{
+    background-color: #F5F5DC;
+    width: 100vw;
+    letter-spacing: 0.4px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    padding-top: 30px
+}
+
+td, th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
+
+tr:nth-child(even) {
+background-color: #dddddd;
+}
+
+
+/* header section */
+header{
+    width: 100%;
+    margin: auto;
+    padding: 5px 20px 30px 20px;
+    background-color: blanchedalmond;
+    position: relative;
+    margin-bottom: 50px;
+}
+.logo h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+
+}
+.home i{
+    background-color: #0E722A;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 34px;
+    line-height: 1;
+    color: blanchedalmond;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid blanchedalmond;
+    cursor: pointer;
+}
+/* header section end */
+
+.name {
+    border: 2px solid #098449;
+    padding: 8px 16px;
+    margin: 20px auto;
+    border-radius: 5px;
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.name button{
+    padding: 5px 9px;
+    color: #fcfcfc;
+    background: #005e00;
+    border-radius: 5px;
+    border: none;
+}
+
+.one{
+    width: 10%;
+}
+.tow, .three, .four{
+    width: 20%;
+}
+.five{
+    width: 30%;
+}
